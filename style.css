@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+select, input, button {
+    padding: 10px;
+    margin-left: 10px;
+}
+main {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+canvas {
+    margin-top: 20px;
+    max-width: 100%;
+}
+#hrading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
