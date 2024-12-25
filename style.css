@@ -5,16 +5,11 @@ body {
     background: #f4f4f4;
 }
 .container {
-    max-width: 1200px;
+    max-width: 100vw;
     margin: auto;
     padding: 20px;
 }
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
+
 select, input, button {
     padding: 10px;
     margin-left: 10px;
@@ -33,5 +28,8 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(41, 38, 38);
+    width: 100%;
+    height: 50px;
+    color: white;
 }
